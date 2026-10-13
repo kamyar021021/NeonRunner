@@ -1,15 +1,8 @@
-import { Scene, SceneOverlay } from './components/Game/Scene';
-import { StartMenu } from './components/UI/StartMenu';
+import { RunnerScene } from './components/Runner/RunnerScene';
 import './App.css';
 
 function App() {
-  return (
-    <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', position: 'relative' }}>
-      <Scene />
-      <SceneOverlay />
-      <StartMenu />
-    </div>
-  );
+  return <RunnerScene />;
 }
 
 export default App;
